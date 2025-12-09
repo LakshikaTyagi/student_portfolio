@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Lakshika Tyagi - Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Lakshika<span>Tyagi</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section>
+                <h2 class="section-heading">Contact Me</h2>
+                <p class="section-subtitle">
+                    Have a question, want feedback on a project, or just want to connect?
+                    Feel free to send me a message using the form below.
+                </p>
+
+                <div class="contact-wrapper">
+                    <div class="contact-extra">
+                        <p>
+                            I am currently a <strong>Computer Science student</strong> and always open
+                            to learning opportunities, project collaborations, and tech discussions.
+                        </p>
+                        <p style="margin-top: 0.75rem;">
+                            You can reach out for:
+                        </p>
+                        <ul style="margin-top: 0.35rem; padding-left: 1.1rem; font-size: 0.9rem;">
+                            <li>Academic or project collaboration</li>
+                            <li>Help with basic web development tasks</li>
+                            <li>Sharing resources & roadmaps for CSE students</li>
+                        </ul>
+                    </div>
+
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email address"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What is your message about?"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Write your message here..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary">Submit Message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            &copy; <span id="year">2025</span> Lakshika Tyagi · Student Portfolio
+        </div>
+    </footer>
+</body>
+</html>
